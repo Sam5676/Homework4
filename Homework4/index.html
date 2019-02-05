@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS-Tricks</title>
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="shortcut icon" type="image/x-icon" href="src/img/logo-icon.ico">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header__logo-container">
+			<a href="#">
+				<img class="star header__star" src="src/img/star1.png" width="50px" height="50px">
+				<h1 class="logo header__logo">css-tricks</h1>
+			</a>
+		</div>
+		<nav class="menu header__menu">
+			<ul>
+				<li>
+					<a href="#" class="menu__nav-link1" >
+						<span class="menu__picture far fa-newspaper"></span>
+						<span>Articles</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="menu__nav-link2">
+						<span class="menu__picture far fa-play-circle"></span> 
+						<span>Videos</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="menu__nav-link3">
+						<span class="menu__picture fas fa-book"></span> 
+						<span>Almanac</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="menu__nav-link4">
+						<span class="menu__picture fas fa-project-diagram"></span> 
+						<span>Snippets</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="menu__nav-link5">
+						<span class="menu__picture far fa-envelope-open"></span> 
+						<span>Newsleter</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="menu__nav-link6">
+						<span class="menu__picture fas fa-briefcase"></span> 
+						<span>Jobs</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="menu__nav-link7">
+						<span class="menu__picture far fa-map"></span>
+						<span>Guides</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<form class="header__search-form">
+			<input class="search-form__search" type="search" name="search" placeholder="e.g.flexbox">
+			<button class="search-form__submit" name="submit"><i class="fas fa-search"></i></button>
+			<button class="search-form__menu-button"><i class="fas fa-bars"></i></button>
+		</form>
+	</header>
+	<div class="article-preview">
+		<article class="article">
+			<h3 class="article__type"><strong>Fresh article</strong></h3>
+			<span class="article__date">February 1, 2019</span>
+			<h1 class="article__title">
+				<a href="#">Well, Typetura seems fun</a>
+			</h1>
+			<div class="article__some-info">
+				<img class="avatar__author-photo" src="src/img/Jen.jpg">
+				<div class="article__author">
+					<h4>Author</h4>
+					<a href="#">Kingsley Silas</a>
+				</div>
+				<div class="article__comments">
+					<h4>Comments</h4>
+					<a href="#">Start the Conversation</a>
+					<a class="comments__arrow" href="#">&rarr;</a>
+				</div>
+			</div>
+			<p class="article__brief-information">Most web applications built today receive data from an <a class="brief-information__links" href="#">API</a>. When fetching that data, we have to take certain situations into consideration where the data might not have been received. Perhaps it was a lost connection. Maybe it was the endpoint was changed. Who knows. Whatever the issue, it's the end user who winds up.</p>
+			<span class="article__brief-information">So we ought to account for that! ...</span>
+			<a class="article__more" href="#"><strong>Read article</strong></a>
+			<a class="article__sticky" href="#">sticky</a>
+		</article>
+		<aside class="aside">
+			<!-- <div class="aside__ad-backgroud"></div> -->
+				<img class="ad aside__ad" src="src/img/pepsi-ad.jpg">
+		</aside>
+	</div>
+</body>
+</html>
